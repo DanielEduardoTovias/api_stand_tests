@@ -1,0 +1,11 @@
+Junto con el código de respuesta, puedes recibir otros atributos. A continuación te mostramos un ejemplo:
+
+Nombre del atributo	Propósito
+
+headers	            Encabezados de respuesta
+status_code	        Código de respuesta
+ok	                Devuelve "True" si el código es 2xx o 3xx
+url	                Dirección de solicitud
+request	            Método de solicitud
+text	            Cuerpo de respuesta en formato de texto
+json()	            Pasa los datos de respuesta al diccionario, de lo contrario, se devolverá un error
